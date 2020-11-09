@@ -15,3 +15,24 @@
     background: url(../img/header-bg.png)  no-repeat center center/cover;
     height: 700px;
 }
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu{
+    display: flex;
+}
+.header__nav-link{
+    font-size: 20px;
+    color: rgb(73,71,71);
+    padding: 15px 20px ;
+    display: inline-block;
+    transition: background 500ms, color 500ms ;
+}
+.header__nav-link:hover{
+    background: purple;
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+}
